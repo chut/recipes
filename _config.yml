@@ -1,0 +1,16 @@
+title: Our Recipes
+description: A collection of family recipes
+baseurl: "/recipes"
+url: "https://chut.github.io"
+
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: "recipe"
